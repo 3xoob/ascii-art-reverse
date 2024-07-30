@@ -25,7 +25,7 @@ run_test "go run . 'Hello World!' shadow"
 run_test "go run . --output=output01.txt 'Hello World!'"
 
 # Test 4: Output to a file with a banner
-run_test "go run . --output=output02.txt 'Hello World!' standard"
+run_test "go run . --output=output02.txt 'Hello World!' shadow"
 
 # Test 5: Color option with text
 run_test "go run . --color=red 'Hello World!'"
